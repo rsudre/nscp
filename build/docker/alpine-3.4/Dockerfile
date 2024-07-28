@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.19.3
 
 RUN mkdir -p /src/nscp
 ADD . /src/nscp/
