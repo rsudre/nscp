@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 RUN mkdir -p /src/nscp
 ADD . /src/nscp/
